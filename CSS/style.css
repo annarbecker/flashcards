@@ -1,0 +1,46 @@
+.jumbotron {
+  text-align: center !important;
+}
+.clickable {
+  font-size:  30px;
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+
+#javascriptInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+
+#moduloInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#operatorsInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#NaNinfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#variableInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
