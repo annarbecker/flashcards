@@ -9,56 +9,192 @@
     <title>Flashcards</title>
   </head>
   <body>
-    <h1 class="jumbotron">Epicodus Flashcards</h1>
+    <div class ="container">
+      <h1 class="jumbotron">Epicodus Flashcards</h1>
+      <p><center>Learn Javascript and JQuery terms in a flash!</center></p>
+      <div id="javascript">
+        <p><span class="clickable">JavaScript</span></p>
+      </div>
 
-    <div id="javascript">
-      <p><span class="clickable">JavaScript</span></p>
+      <div id="javascriptInfo">
+          <p>JavaScript is a high-level, dynamic, untyped, and interpreted programming language. JavaScript changes what is displayed on webpages with animation.
+        </p>
+      </div>
+
+      <div id="modulo">
+        <p><span class="clickable">Modulo</span></p>
+      </div>
+
+      <div id="moduloInfo">
+          <p>The modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n. Example: 5 % 3;
+        </p>
+      </div>
+
+      <div id="operators">
+        <p><span class="clickable">Operators</span></p>
+      </div>
+
+      <div id="operatorsInfo">
+          <p>JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. Example: +, -, /, *
+        </p>
+      </div>
+
+      <div id="NaN">
+        <p><span class="clickable">NaN</span></p>
+      </div>
+
+      <div id="NaNinfo">
+          <p>Stands for Not a Number. It is the value you get when you do 0 / 0.
+        </p>
+      </div>
+
+      <div id="variable">
+        <p><span class="clickable">Variable Naming Conventions</span></p>
+      </div>
+
+      <div id="variableInfo">
+        <ul>
+          <li>Variables should begin with a letter (they can also begin with $ or _ but these symbols are not advisable...stick with the letters!).</li>
+          <li>Variables are case sensitive (myNumber is a different variable than myNUMBER).</li>
+          <li>Use clear, descriptive names that describe the value being stored like myNumber.</li>
+          <li>Avoid shorthand or initials that would be difficult for another person (or yourself later) to understand. For example: var x = 45 doesn't tell us what the value is. Is 45 an age, a distance, a size, a time? And something like var mn = 45 isn't much better. mn may clearly mean myNumber to you at first but later you or another may not have those details.</li>
+        </ul>
+      </div>
+
+      <div id="plus">
+        <p><span class="clickable">Plus Equals</span></p>
+      </div>
+
+      <div id="plusInfo">
+          <p>Use + to combine strings. Example: "I love" + " " + "pasta."; This would become "I love pasta."
+          <br>
+          Use = to define a variable, functions or strings. Example: var myNumber = 16. This defines the variable myNumber as 16.
+          </p>
+      </div>
+
+      <div id="function">
+        <p><span class="clickable">Function</span></p>
+      </div>
+
+      <div id="functionInfo">
+          <p>A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.
+          </p>
+      </div>
+
+      <div id="method">
+        <p><span class="clickable">Method</span></p>
+      </div>
+
+      <div id="methodInfo">
+          <p>You can think of a method as a message that you send to a number, and the result that JavaScript gives you as the number's response to that message. Example: > 48432.78.toExponential(); > "4.843278e+4" .toExponential() is the method.
+          </p>
+      </div>
+
+      <div id="arguement">
+        <p><span class="clickable">Arguement to a Method</span></p>
+      </div>
+
+      <div id="arguementInfo">
+          <p>Arguments provide a bit more information to methods to help them know what they're supposed to do. In this case, the argument is optional. When a method doesn't take an argument, or when the argument is optional and you aren't using it, you still need the parentheses on the end - so you have write 1.05e3.toFixed(), not 1.05e3.toFixed.
+          <br>
+          Example: > 46.1.toFixed(2); >"46.10" The 2 in the parentheses is an argument to the toFixed() method.
+          </p>
+      </div>
+
+      <div id="string">
+        <p><span class="clickable">String</span></p>
+      </div>
+
+      <div id="stringInfo">
+          <p>Strings are contained within quotes. Strings can include letters, punctuation, and even numbers. Example: "Hello World"
+          </p>
+      </div>
+
+      <div id="chaining">
+        <p><span class="clickable">Chaining Methods</span></p>
+      </div>
+
+      <div id="chainingInfo">
+          <p>Methods can be chained like this:
+            <br>
+            > "foo".concat("bar").toUpperCase();
+            "FOOBAR"
+            <br>
+            The concat() method (which concatenates, or combines, two strings) returns a string, which then has toUpperCase() called on it. Then, toUpperCase() returns the final result. By the way, here's a nice shortcut for the concat() method:
+            <br>> "I love" + " " + "Epicodus"; >"I love Epicodus"
+          </p>
+      </div>
+
+      <div id="escape">
+        <p><span class="clickable">Escape</span></p>
+      </div>
+
+      <div id="escapeInfo">
+          <p>If you want to put a quote inside a string, you have two options.
+          <br>
+          > "Quoth the raven, \"Nevermore.\"";
+          >"Quoth the raven, "Nevermore.""
+          <br>
+          The \\ is called an escape. It tells JavaScript the the " that comes right after it is not the end of the string, but just a character inside the string.
+          </p>
+      </div>
+
+      <div id="alert">
+        <p><span class="clickable">Alert</span></p>
+      </div>
+
+      <div id="alertInfo">
+          <p>alert() is a function. A function is something that performs an action. Just like a method, a function can take an argument. The alert() function pops up a dialog box with the string that you pass in as an argument.
+          </p>
+      </div>
+
+      <div id="commenting">
+        <p><span class="clickable">Commenting Code</span></p>
+      </div>
+
+      <div id="commentingInfo">
+          <p>In JavaScript, everything after the // is a comment, and is ignored. Comments are a convenient way to leave notes in your code for yourself or other programmers.
+          <br>
+          > prompt("What is the air-speed velocity of an unladen swallow?");  // I'm going to type "African or European?"
+          "African or European?"
+          </p>
+      </div>
+
+      <div id="booleans">
+        <p><span class="clickable">Booleans</span></p>
+      </div>
+
+      <div id="booleansInfo">
+          <p><strong>true</strong> and <strong>false</strong> aren't strings - they're called booleans. They simply represent being true or false. Often used as responses to confirm a function.
+          </p>
+      </div>
+
+      <div id="undefined">
+        <p><span class="clickable">Undefined</span></p>
+      </div>
+
+      <div id="undefinedInfo">
+          <p>Undefined is when nothing has been returned from the function or the variable isn't given a value.
+          </p>
+      </div>
+
+      <div id="parameter">
+        <p><span class="clickable">Parameter</span></p>
+      </div>
+
+      <div id="parameterInfo">
+          <p>A parameter is a variable that accepts an argument.
+          </p>
+      </div>
+
+      <div id="return">
+        <p><span class="clickable">Return</span></p>
+      </div>
+
+      <div id="returnInfo">
+          <p>The return keyword tells JavaScript to return the result from that line of code. Without a return, JavaScript will return undefined from the function, which is JavaScript's way of saying something does not have a value.
+          </p>
+      </div>
     </div>
-
-    <div id="javascriptInfo">
-        <p>JavaScript is a high-level, dynamic, untyped, and interpreted programming language. JavaScript changes what is displayed on webpages with animation.
-      </p>
-    </div>
-
-    <div id="modulo">
-      <p><span class="clickable">Modulo</span></p>
-    </div>
-
-    <div id="moduloInfo">
-        <p>The modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n. Example: 5 % 3;
-      </p>
-    </div>
-
-    <div id="operators">
-      <p><span class="clickable">Operators</span></p>
-    </div>
-
-    <div id="operatorsInfo">
-        <p>JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. Example: +, -, /, *
-      </p>
-    </div>
-
-    <div id="NaN">
-      <p><span class="clickable">NaN</span></p>
-    </div>
-
-    <div id="NaNinfo">
-        <p>Stands for Not a Number. It is the value you get when you do 0 / 0.
-      </p>
-    </div>
-
-    <div id="variable">
-      <p><span class="clickable">Variable Naming Conventions</span></p>
-    </div>
-
-    <div id="variableInfo">
-      <ol>
-        <li>Variables should begin with a letter (they can also begin with $ or _ but these symbols are not advisable...stick with the letters!).</li>
-        <li>Variables are case sensitive (myNumber is a different variable than myNUMBER).</li>
-        <li>Use clear, descriptive names that describe the value being stored like myNumber.<li>
-        <li>Avoid shorthand or initials that would be difficult for another person (or yourself later) to understand. For example: var x = 45 doesn't tell us what the value is. Is 45 an age, a distance, a size, a time? And something like var mn = 45 isn't much better. mn may clearly mean myNumber to you at first but later you or another may not have those details.</li>
-      </ol>
-    </div>
-
   </body>
 </html>

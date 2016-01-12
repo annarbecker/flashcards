@@ -7,7 +7,9 @@
   color: lightblue;
   cursor: pointer;
 }
-
+.container {
+  width: 80%;
+}
 #javascriptInfo {
   display: none;
   cursor: pointer;
@@ -38,6 +40,97 @@
   font-size: 25px;
 }
 #variableInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#plusInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#functionInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#methodInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#arguementInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#stringInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#chainingInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#escapeInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#alertInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#commentingInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#booleansInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#undefinedInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#parameterInfo {
+  display: none;
+  cursor: pointer;
+  background-color: yellow;
+  border: 2px solid limegreen;
+  font-size: 25px;
+}
+#returnInfo {
   display: none;
   cursor: pointer;
   background-color: yellow;
